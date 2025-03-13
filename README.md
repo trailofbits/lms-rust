@@ -1,5 +1,13 @@
 # Leighton-Micali Hash-Based Signatures
 
+> [!IMPORTANT]
+> This implementation is [now part of RustCrypto]. Users should avoid any
+> direct use of this repository and instead use [lms-signature] from RustCrypto.
+
+[now part of RustCrypto]: https://github.com/RustCrypto/signatures/tree/master/lms
+
+[lms-signature]: https://crates.io/crates/lms-signature
+
 This repository contains implementations of [Leighton-Micali Hash-Based
 Signatures (RFC 8554)](https://datatracker.ietf.org/doc/html/rfc8554).
 
@@ -20,7 +28,7 @@ security vulnerability in your application.
 For a stateless hash-based signature algorithm, see
 [SPHINCS+](https://sphincs.org).
 
-NOTE: this project has not been externally audited, but the entire codebase 
+NOTE: this project has not been externally audited, but the entire codebase
 was internally reviewed by cryptographers at Trail of Bits.
 
 ## Installation
